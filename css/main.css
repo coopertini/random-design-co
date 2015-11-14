@@ -98,7 +98,7 @@ textarea {
 /*  GLOBALS  */
 
 body {
-    width: 100%;
+    max-width: 100%;
     padding: 35px 20px 20px 20px;
 }
 
@@ -148,7 +148,7 @@ h1 {
     padding-top: 50px;
 }
 
-/*  TRANSPARENT BUTTONS  */
+/*  TRANSPARENT BUTTON  */
 
 .transp-btn {
     font-size: 30px;
@@ -191,6 +191,14 @@ h1 {
     height: 100%;
     text-align: center;
     padding: 0px;
+    line-height: 210px;
+    font-size: 1.3em;
+    margin-top: 0px;
+}
+
+.project-overlay:hover, .project-overlay:active {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
 }
 
 /*  FOOTER  */
@@ -198,6 +206,7 @@ h1 {
 .footer {
     clear: both;
     text-align: center;
+    padding-top: 30px;
 }
 
 
