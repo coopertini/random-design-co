@@ -132,7 +132,6 @@ p {
     top: .62em;
     color: #fff;
     z-index: 3;
-    font-size: 4em;
 }
 
 /*  HEADER  */
@@ -149,7 +148,7 @@ h1 {
     text-align: center;
     color: #fff;
     line-height: 1em;
-    padding-top: 100px;
+    padding-top: 2em;
     font-size: 4em;
 }
 
