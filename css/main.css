@@ -156,17 +156,16 @@ h1 {
 /*  TRANSPARENT BUTTON  */
 
 .transp-btn {
+    clear: both;
     font-size: 25px;
     text-decoration: none;
     color: #fff;
-    display: block;
     padding: 15px;
     border: 2px solid #fff;
     text-align: center;
     outline: none;
-    position: absolute;
-    top: 50%;
-    margin: 0 auto;
+    display: table;
+    margin: auto;
 }
 
 .transp-btn:hover, .transp-btn:active {
