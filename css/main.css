@@ -43,7 +43,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 1em -20px;
     padding: 0;
 }
 
@@ -95,7 +95,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    padding: 70px 20px 20px 20px;
+}
 
+.main-nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    padding-left: 20px;
+}
+
+#menu-icon {
+    position: fixed;
+    right: 20px;
+    top: 25px;
+}
 
 
 
