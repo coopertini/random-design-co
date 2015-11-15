@@ -97,6 +97,14 @@ textarea {
 
 /*  GLOBALS  */
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { 
+    box-sizing: inherit; 
+}
+
 body {
     max-width: 100%;
     padding: 2.188em 1.250em 1.250em 1.250em;
@@ -146,12 +154,19 @@ p {
 
 /*  HEADER  */
 .header {
-    background-image: url('../img/purple-bg.jpeg');
+    /*background-image: url('../img/purple-bg.jpeg');*/
     margin: -1.188em -1.250em;
     background-position: auto;
     background-size: 100% 100%;
     height: 30.000em;
     position: relative;
+}
+
+.header img {
+    width: 100%;
+    z-index: -20;
+    position: absolute;
+    height: 30em;
 }
 
 h1 {
@@ -248,6 +263,7 @@ h1 {
     text-align: center;
     padding-top: 1em;
 }
+
 
 
 /* ==========================================================================
